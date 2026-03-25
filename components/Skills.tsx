@@ -2,22 +2,22 @@ export default function Skills() {
   const detailedSkills = [
     {
       title: "Montage Dynamique & Formats Courts",
-      description: "Optimisation de la rétention d'audience pour TikTok et Shorts via un rythme soutenu, des cuts précis, du sound design immersif (wooshes, impacts) et des sous-titres animés.",
+      description: "Optimisation de l'attention du spectateur pour TikTok et Shorts (téléphones) avec un rythme soutenu, des enchaînements rapides, un habillage sonore de qualité et des sous-titres animés.",
       icon: "📱"
     },
     {
-      title: "Motion Design & VFX",
-      description: "Création d'animations fluides sur After Effects avec une forte maîtrise de la synchronisation audio (audio-reactivity), idéal pour l'habillage de podcasts et les clips musicaux.",
+      title: "Animation & Effets Visuels",
+      description: "Création d'animations fluides sur After Effects avec une synchronisation parfaite entre l'image et la musique, idéal pour animer des podcasts vidéos ou des clips musicaux.",
       icon: "✨"
     },
     {
-      title: "Post-Production Corporate",
-      description: "Traitement professionnel : étalonnage colorimétrique (color grading), mixage audio soigné, et construction narrative claire pour valoriser les vidéos d'entreprise.",
+      title: "Post-Production Vidéo",
+      description: "Traitement professionnel de l'image (étalonnage et correction des couleurs), mixage du son soigné, et construction d'une narration claire pour valoriser les vidéos d'entreprise.",
       icon: "🎬"
     },
     {
-      title: "Design Graphique & Édition",
-      description: "Conception complète d'identités visuelles et mise en page de dossiers de présentation percutants (ex: projets type Nike Air Max DN), maîtrisant la typographie et la charte graphique.",
+      title: "Design Graphique & Mise en Page",
+      description: "Création complète d'identités visuelles et mise en forme de dossiers de présentation percutants (ex: le dossier Nike Air Max DN), en maîtrisant au mieux la typographie et les couleurs.",
       icon: "🎨"
     }
   ];
