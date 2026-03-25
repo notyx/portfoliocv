@@ -10,7 +10,7 @@ export default function Contact() {
           </h2>
           <div className="w-24 h-1 bg-red-600 mx-auto rounded-full"></div>
           <p className="text-zinc-400 mt-6 max-w-2xl mx-auto">
-            Étudiant en recherche d&apos;un stage de 8 à 10 semaines. N&apos;hésitez pas à me contacter.
+            Je suis actuellment en recherche d'un stage de 8 à 10 semaines entre la période de Avril à Juin 2026. N'hésitez pas à me contacter.
           </p>
         </div>
 

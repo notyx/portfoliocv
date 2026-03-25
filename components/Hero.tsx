@@ -19,10 +19,10 @@ export default function Hero() {
             </span>
           </h1>
           <h2 className="text-xl md:text-2xl font-medium text-zinc-300">
-            Étudiant MMI
+            Étudiant en BUT Métiers du Multimédia et de l&apos;Internet
           </h2>
           <p className="text-base md:text-lg text-zinc-400 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Étudiant en BUT Métiers du Multimédia et de l&apos;Internet, je recherche un stage de 8 à 10 semaines dans les domaines de la communication digitale, du design graphique et de la production audiovisuelle.
+            Jeune Étudiant passionné par le design graphique, le montage vidéo et le motion design. Je cherche toujours à créer des visuels originaux et percutants, tout en expérimentant de nouvelles techniques et en repoussant mes limites. J'aime créer de toutes les manières possibles et je m'intéresse à tout ce qui touche au multimédia.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-4">
             <Link
@@ -39,19 +39,19 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        
+
         <div className="relative flex justify-center items-center h-[400px] lg:h-[600px] w-full hidden md:flex">
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-red-900/30 flex items-center justify-center overflow-hidden shrink-0 group shadow-2xl shadow-red-900/20">
-             <div className="absolute inset-0 bg-gradient-to-br from-red-950/40 to-black/80 z-0 group-hover:opacity-0 transition-opacity duration-500"></div>
-             <Image
-               src="/profile.jpg"
-               alt="Noan Likeng-Buot"
-               fill
-               className="object-cover z-10"
-               priority
-             />
-             {/* Decorative rings */}
-             <div className="absolute w-[120%] h-[120%] rounded-full border border-red-500/10 border-dashed animate-[spin_20s_linear_infinite] z-20 pointer-events-none"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-red-950/40 to-black/80 z-0 group-hover:opacity-0 transition-opacity duration-500"></div>
+            <Image
+              src="/profile.jpg"
+              alt="Noan Likeng-Buot"
+              fill
+              className="object-cover z-10"
+              priority
+            />
+            {/* Decorative rings */}
+            <div className="absolute w-[120%] h-[120%] rounded-full border border-red-500/10 border-dashed animate-[spin_20s_linear_infinite] z-20 pointer-events-none"></div>
           </div>
         </div>
       </div>
