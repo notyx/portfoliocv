@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Projects() {
   const projects = [
     { title: "Projet à venir", category: "Montage Vidéo", type: "Vidéo" },
@@ -50,9 +52,9 @@ export default function Projects() {
         </div>
         
         <div className="mt-16 text-center">
-          <button className="px-8 py-3.5 rounded-full text-base font-semibold bg-zinc-900 border border-zinc-800 text-white hover:bg-zinc-800 hover:border-zinc-700 transition-all duration-300 inline-flex items-center gap-2">
+          <Link href="/projects" className="px-8 py-3.5 rounded-full text-base font-semibold bg-zinc-900 border border-zinc-800 text-white hover:bg-zinc-800 hover:border-zinc-700 transition-all duration-300 inline-flex items-center gap-2">
             Voir plus de projets
-          </button>
+          </Link>
         </div>
       </div>
     </section>

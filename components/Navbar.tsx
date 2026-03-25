@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const navLinks = [
-  { name: "Accueil", href: "#hero" },
-  { name: "Présentation", href: "#presentation" },
-  { name: "Compétences", href: "#skills" },
-  { name: "À propos", href: "#about" },
-  { name: "Projets", href: "#projects" },
+  { name: "Accueil", href: "/#hero" },
+  { name: "Présentation", href: "/#presentation" },
+  { name: "Compétences", href: "/#skills" },
+  { name: "À propos", href: "/#about" },
+  { name: "Projets", href: "/#projects" },
 ];
 
 export default function Navbar() {
@@ -49,7 +49,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="#contact"
+            href="/#contact"
             className="px-5 py-2.5 rounded-full text-sm font-semibold bg-gradient-to-r from-red-600 to-red-800 text-white shadow-lg shadow-red-900/20 hover:shadow-red-900/40 hover:-translate-y-0.5 transition-all duration-300"
           >
             Me Contacter
