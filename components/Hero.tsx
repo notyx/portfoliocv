@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -40,14 +41,17 @@ export default function Hero() {
         </div>
         
         <div className="relative flex justify-center items-center h-[400px] lg:h-[600px] w-full hidden md:flex">
-          {/* Abstract representation since we don't have the photo directly */}
-          <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-red-900/30 flex items-center justify-center overflow-hidden shrink-0">
-             <div className="absolute inset-0 bg-gradient-to-br from-red-950/40 to-black/80"></div>
-             <div className="w-[85%] h-[85%] rounded-full border border-red-500/20 bg-zinc-900/50 flex items-center justify-center backdrop-blur-sm z-10">
-               <span className="text-6xl font-black text-red-500/20 tracking-tighter">NLB</span>
-             </div>
+          <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-red-900/30 flex items-center justify-center overflow-hidden shrink-0 group shadow-2xl shadow-red-900/20">
+             <div className="absolute inset-0 bg-gradient-to-br from-red-950/40 to-black/80 z-0 group-hover:opacity-0 transition-opacity duration-500"></div>
+             <Image
+               src="/profile.jpg"
+               alt="Noan Likeng-Buot"
+               fill
+               className="object-cover z-10"
+               priority
+             />
              {/* Decorative rings */}
-             <div className="absolute w-[120%] h-[120%] rounded-full border border-red-500/10 border-dashed animate-[spin_20s_linear_infinite]"></div>
+             <div className="absolute w-[120%] h-[120%] rounded-full border border-red-500/10 border-dashed animate-[spin_20s_linear_infinite] z-20 pointer-events-none"></div>
           </div>
         </div>
       </div>

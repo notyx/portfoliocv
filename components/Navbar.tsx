@@ -9,6 +9,7 @@ const navLinks = [
   { name: "Compétences", href: "/#skills" },
   { name: "À propos", href: "/#about" },
   { name: "Projets", href: "/#projects" },
+  { name: "CV", href: "/cv" },
 ];
 
 export default function Navbar() {
