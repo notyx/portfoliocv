@@ -4,8 +4,9 @@ import Navbar from "../../../components/Navbar";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function ProjectDetailsPage({ params }: { params: { slug: string } }) {
-  const project = projects.find((p) => p.slug === params.slug);
+export default async function ProjectDetailsPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
+  const project = projects.find((p) => p.slug === resolvedParams.slug);
 
   if (!project) {
     notFound();
