@@ -2,7 +2,7 @@ export default function Skills() {
   const detailedSkills = [
     {
       title: "Montage Dynamique & Formats Courts",
-      description: "Optimisation de l'attention du spectateur pour TikTok et Shorts (téléphones) avec un rythme soutenu, des enchaînements rapides, un habillage sonore de qualité et des sous-titres animés.",
+      description: "Optimisation de l'attention du spectateur pour TikTok et Shorts avec un rythme soutenu, des enchaînements rapides, un habillage sonore de qualité et des sous-titres animés.",
       icon: "📱"
     },
     {
@@ -12,12 +12,12 @@ export default function Skills() {
     },
     {
       title: "Post-Production Vidéo",
-      description: "Traitement professionnel de l'image (étalonnage et correction des couleurs), mixage du son soigné, et construction d'une narration claire pour valoriser les vidéos d'entreprise.",
+      description: "Traitement professionnel de l'image (étalonnage et correction des couleurs), mixage du son, et construction d'une narration claire pour valoriser les vidéos d'entreprise.",
       icon: "🎬"
     },
     {
       title: "Design Graphique & Mise en Page",
-      description: "Création complète d'identités visuelles et mise en forme de dossiers de présentation percutants (ex: le dossier Nike Air Max DN), en maîtrisant au mieux la typographie et les couleurs.",
+      description: "Création complète d'identités visuelles et mise en forme de dossiers de présentation percutants, en maîtrisant au mieux la typographie et les couleurs.",
       icon: "🎨"
     }
   ];
@@ -45,7 +45,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-col lg:flex-row gap-12">
-          
+
           {/* Detailed Skills Context */}
           <div className="flex-1 grid sm:grid-cols-2 gap-6">
             {detailedSkills.map((skill, index) => (
@@ -67,12 +67,12 @@ export default function Skills() {
           <div className="lg:w-1/3 bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 rounded-3xl p-8 shadow-2xl flex flex-col justify-center relative overflow-hidden">
             {/* Background glowing effect */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-red-600/5 blur-[100px] rounded-full pointer-events-none"></div>
-            
+
             <h3 className="text-2xl font-bold text-white mb-8 flex items-center gap-3 relative z-10">
               <span className="w-8 h-8 rounded-lg bg-red-600/20 text-red-500 flex items-center justify-center">🛠️</span>
               Outils Maîtrisés
             </h3>
-            
+
             <div className="grid grid-cols-3 gap-6 relative z-10">
               {tools.map((tool, index) => (
                 <div key={index} className="flex flex-col items-center gap-3 group">
@@ -86,9 +86,9 @@ export default function Skills() {
                 </div>
               ))}
             </div>
-            
+
           </div>
-          
+
         </div>
       </div>
     </section>
