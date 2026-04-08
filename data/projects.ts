@@ -60,4 +60,13 @@ export const projects: Project[] = [
     shortDescription: "Réalisation graphique et de mise en page pour la présentation de la Nike Air Max DN.",
     content: "Mise en page complète d'un dossier de présentation visuelle pour le célèbre modèle Air Max DN de Nike. L'accent a été mis sur le strict respect de l'identité visuelle de la marque, ainsi que l'utilisation d'une typographie percutante et harmonieuse. Entièrement réalisé avec Adobe InDesign."
   },
+  {
+    slug: "nintendo-switch-motion-design",
+    title: "Pub Fictive Nintendo Switch",
+    category: "Vidéo",
+    date: "2026",
+    youtubeId: "16mRTJRHtY0",
+    shortDescription: "Publicité fictive d'une Nintendo Switch intégrant de nouvelles fonctionnalités. Projet axé sur le motion design.",
+    content: "Ce projet consistait à réaliser une publicité sur une Nintendo Switch fictive pour travailler le motion design. De nombreuses nouveautés y ont été animées et intégrées, comme un accès à de nouvelles applications, l'apparition d'une carte SIM 5G sur la console et un nouvel écran 4K."
+  },
 ];
