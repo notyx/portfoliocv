@@ -65,7 +65,7 @@ export const projects: Project[] = [
     title: "Pub Fictive Nintendo Switch",
     category: "Vidéo",
     date: "2026",
-    youtubeId: "16mRTJRHtY0",
+    youtubeId: "DtNn6PuxVcM",
     shortDescription: "Publicité fictive d'une Nintendo Switch intégrant de nouvelles fonctionnalités. Projet axé sur le motion design.",
     content: "Ce projet consistait à réaliser une publicité sur une Nintendo Switch fictive pour travailler le motion design. De nombreuses nouveautés y ont été animées et intégrées, comme un accès à de nouvelles applications, l'apparition d'une carte SIM 5G sur la console et un nouvel écran 4K."
   },
